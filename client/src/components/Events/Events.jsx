@@ -22,7 +22,7 @@ const Events = () => {
       animateRef.current.classList.remove("active");
       setTimeout(() => {
         animateRef.current.classList.add("active");
-      }, 500);
+      }, 200);
 
       applyContainerProperties();
 
